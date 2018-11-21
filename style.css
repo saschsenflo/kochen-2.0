@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+  color: #333333;
+}
+
+#menu{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  margin: 0;
+}
+
+#menu a{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #333333;
+}
+
+#burger{
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  float: right;
+}
+
+#header{
+  height: 60px;
+  background: gray;
+}
+
+#navigation{
+  display: none;
+}
+
+#navigation.show{
+  display: block;
+  text-align: center;
+}
